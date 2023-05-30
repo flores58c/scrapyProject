@@ -2,9 +2,9 @@
 <h1>Web Scrape of Pokemon Data from a Website</h1>
 <h2>Topics Worked On
 <ul>
-  <li>Extraction of HTML Data</li>
-  <li>Transfroming Data into readable files(CSV,SQLite3)</li>
-  <li>Loading Data into a Frontend Application using Flask/Local database SQLite</li>
+  <li>Extraction of HTML Data from Pokemon Wiki website</li>
+  <li>Transfroming Data into readable data)</li>
+  <li>Loading Data into a CSV,SQLite3 database, Frontend Application using Flask for reading</li>
 </ul>
 <br>
   <h2>Data Collected</h2>
