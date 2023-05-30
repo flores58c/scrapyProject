@@ -4,7 +4,7 @@
 <ul>
   <li>Extraction of HTML Data</li>
   <li>Transfroming Data into readable files(CSV,SQLite3)</li>
-  <li>Loading Data into a Frontend Application using Flask/Local file SQLite</li>
+  <li>Loading Data into a Frontend Application using Flask/Local database SQLite</li>
 </ul>
 <br>
   <h2>Data Collected</h2>
