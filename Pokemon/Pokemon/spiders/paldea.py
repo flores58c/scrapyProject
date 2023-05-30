@@ -66,10 +66,10 @@ class PaldeaSpider(scrapy.Spider):
         #for first row:
        #number:table[2].xpath('td/text()')[0].extract()
 
-        for i in range(1,9):
+        for i in range(1,10):
             num = table[2+i].xpath('td/text()')[0].extract()
 
-            name = table[3+i].xpath('td/a/text()')[0].extract()
+            name = table[2+i].xpath('td/a/text()')[0].extract()
 
             jName = table[2+i].xpath('td/text()')[2].extract()
 
