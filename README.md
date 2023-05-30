@@ -8,5 +8,5 @@
 </ul>
 <br>
   <h2>Data Collected</h2>
-  <h3>Collected data[entry number(pokedex num), name, and artwork] of first ten Pokemon from the new Generation in Paldea(Spain)</h3>
+  <h3>[entry number(pokedex num), name, and artwork] of first ten Pokemon from the new Generation in Paldea(Spain)</h3>
   
