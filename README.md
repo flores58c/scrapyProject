@@ -4,7 +4,7 @@
 <ul>
   <li>Extraction of HTML Data using Scrapy/Spider from Pokemon Wiki website</li>
   <li>Transfroming HTML fetch response via XPath into Readable Data</li>
-  <li>Loading Data into a CSV,SQLite3 database, Frontend Application using Flask for reading</li>
+  <li>Loading Data into a CSV & SQLite3 database</li>
 </ul>
 <br>
 
