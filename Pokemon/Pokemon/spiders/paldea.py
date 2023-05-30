@@ -61,14 +61,28 @@ class PaldeaSpider(scrapy.Spider):
         writer.writerow([firstNum,first_name,jName,sprigatitoArt])
  
 
-       #need to skip index by 2
-       #response.xpath('//table')[1].xpath('//tbody/tr/td/a/img/@data-src')[i+2]
+    
        
-        
-        
-            
+        #for first row:
+       #number:table[2].xpath('td/text()')[0].extract()
 
-         
+        for i in range(1,9):
+            num = table[2+i].xpath('td/text()')[0].extract()
+
+            name = table[3+i].xpath('td/a/text()')[0].extract()
+
+            jName = table[2+i].xpath('td/text()')[2].extract()
+
+            
+            art = table[3+i].xpath('td/a/img/@data-src')[0].extract()
+                
+                
+            
+            cursor.execute(query1,(num,name,jName,art))
+            connection.commit()
+
+            #for csv
+            writer.writerow([num,name,jName,art])
         
         
 
