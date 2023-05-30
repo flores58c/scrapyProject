@@ -74,7 +74,7 @@ class PaldeaSpider(scrapy.Spider):
             jName = table[2+i].xpath('td/text()')[2].extract()
 
             
-            art = table[3+i].xpath('td/a/img/@data-src')[0].extract()
+            art = table[2+i].xpath('td/a/img/@data-src')[0].extract()
                 
                 
             
