@@ -3,7 +3,7 @@
 <h2>Topics Worked On
 <ul>
   <li>Extraction of HTML Data</li>
-  <li>Transfroming Data into readable files(csv,sqlite2)</li>
+  <li>Transfroming Data into readable files(csv,sqlite3)</li>
   <li>Loading Data into a Frontend Application using Flask</li>
 </ul>
 <br>
