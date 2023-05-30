@@ -7,6 +7,5 @@
   <li>Loading Data into a CSV,SQLite3 database, Frontend Application using Flask for reading</li>
 </ul>
 <br>
-  <h2>Data Collected</h2>
-  <h3>[entry number(pokedex num), name, and artwork] of first ten Pokemon from the new Generation in Paldea(Spain)</h3>
+
   
